@@ -6,14 +6,14 @@ import { Metadata } from "next";
 import ContactForm from "./components/contact-form";
 
 export const metadata: Metadata = {
-  title: "Contact | Umar Bashir Portfolio | Software Developer",
+  title: "Contact | Vertex | Solutions ",
   alternates: {
     canonical: `${process.env.APP_URL}/contact`,
   },
   openGraph: {
     type: "website",
     url: `${process.env.APP_URL}/contact`,
-    title: "Contact | Umar Bashir Portfolio | Software Developer",
+    title: "Contact |Vertex | Solutions ",
     description:
       "Get in touch with me for any queries, project discussions, or just to say hello. I am always open to new opportunities and collaborations.",
     images: [
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
         url: "/images/og-image.png",
         width: 800,
         height: 600,
-        alt: "Umar Bashir Portfolio",
+        alt: "Vertex Solution Portfolio",
       },
     ],
-    siteName: "Umar Bashir Portfolio",
+    siteName: "Vertex Solution Portfolio",
   },
 };
 

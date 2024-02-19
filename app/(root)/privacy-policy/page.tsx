@@ -4,25 +4,25 @@ import { PageHeroBanner } from "../../../components";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Umar Bashir Portfolio | Software Developer",
+  title: "Our Portfolio | Vertex Splution Portfolio | Tech Agency",
   alternates: {
     canonical: `${process.env.APP_URL}/privacy-policy`,
   },
   openGraph: {
     type: "website",
     url: `${process.env.APP_URL}/privacy-policy`,
-    title: "Privacy Policy | Umar Bashir Portfolio | Software Developer",
+    title: "Our Portfolio | Vertex Splution Portfolio | Tech Agency",
     description:
-      "Provides outlines how Umar Bashir Portfolio (&lsquo;we&rsquo; or &lsquo;us&rsquo;) collects, uses, and protects your information.",
+      "Provides outlines how Vertex Splution Portfolio (&lsquo;we&rsquo; or &lsquo;us&rsquo;) collects, uses, and protects your information.",
     images: [
       {
         url: "/images/og-image.png",
         width: 800,
         height: 600,
-        alt: "Umar Bashir Portfolio",
+        alt: "Vertex Splution Portfolio",
       },
     ],
-    siteName: "Umar Bashir Portfolio",
+    siteName: "Vertex Splution Portfolio",
   },
 };
 
@@ -44,11 +44,11 @@ const PrivacyPolicy = () => {
       <div id="terms_section" className="mb-10 lg:mb-20 container mx-auto px-5">
         <div>
           <h2 className="text-3xl font-bold mb-5">
-            Umar Bashir Portfolio - Privacy Policy
+            Vertex Splution Portfolio - Privacy Policy
           </h2>
           <h3 className={title}>1. Introduction</h3>
           <p className={desc}>
-            This Privacy Policy outlines how Umar Bashir Portfolio
+            This Privacy Policy outlines how Vertex Splution Portfolio
             (&lsquo;we&rsquo; or &lsquo;us&rsquo;) collects, uses, and protects
             your personal information when you use my services or visit my
             website. By using my services and visiting my website, you agree to
@@ -117,9 +117,9 @@ const PrivacyPolicy = () => {
             personal information or this Privacy Policy, please contact me at{" "}
             <Link
               className="text-indigo-500 underline font-semibold"
-              href="mailto:umarbashir601@gmail.com"
+              href="mailto:vertexsolutions.x@gmail.com"
             >
-              umarbashir601@gmail.com
+              vertexsolutions.x@gmail.com
             </Link>
             .
           </p>

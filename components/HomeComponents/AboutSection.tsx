@@ -12,9 +12,9 @@ const AboutSection = () => {
             {/* <p className="bg-secondary-color text-white px-3 py-1 text-xs rounded-2xl inline-flex">
               About Us
             </p> */}
-            <SectionTitle title="About Me" isCentered={undefined} />
+            <SectionTitle title="About us" isCentered={undefined} />
             <p className="mt-4 text-xl leading-loose font-light">
-              I am a professional software developer with over 03 years of
+              We are professional software developer with over 10 years of
               experience in web design and development. I am passionate about
               software development and I always try to bring the best quality
               service to my clients.{" "}

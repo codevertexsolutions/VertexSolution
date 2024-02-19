@@ -4,14 +4,14 @@ import React from "react";
 import ServicesBlock from "./components/services-block";
 
 export const metadata: Metadata = {
-  title: "Services | Umar Bashir Portfolio | Software Developer",
+  title: "Services | Vertex Solutions Portfolio | Tech Agency",
   alternates: {
     canonical: `${process.env.APP_URL}/services`,
   },
   openGraph: {
     type: "website",
     url: `${process.env.APP_URL}/services`,
-    title: "Services | Umar Bashir Portfolio | Software Developer",
+    title: "Services | Vertex Solutions Portfolio | Tech Agency",
     description:
       "Web design, development, and digital marketing expert. Specializing in NextJS, Angular. Improve your online presence to reach new customers.",
     images: [
@@ -19,10 +19,10 @@ export const metadata: Metadata = {
         url: "/images/og-image.png",
         width: 800,
         height: 600,
-        alt: "Umar Bashir Portfolio",
+        alt: "Vertex Solutions Portfolio",
       },
     ],
-    siteName: "Umar Bashir Portfolio",
+    siteName: "Vertex Solutions Portfolio",
   },
 };
 

@@ -6,14 +6,14 @@ import { Portfolio } from "../../../interfaces/portfolio";
 import { OUR_PORTFOLIO } from "../../../utils/siteData";
 
 export const metadata: Metadata = {
-  title: "My Portfolio | Umar Bashir Portfolio | Software Developer",
+  title: "Our Portfolio | Vertex Splution Portfolio | Tech Agency",
   alternates: {
     canonical: `${process.env.APP_URL}/portfolio`,
   },
   openGraph: {
     type: "website",
     url: `${process.env.APP_URL}/portfolio`,
-    title: "My Portfolio | Umar Bashir Portfolio | Software Developer",
+    title: "Our Portfolio | Vertex Splution Portfolio | Tech Agency",
     description:
       "Professional in web development, design, and digital marketing. Specializing in ReactJS, NextJS, Angular for impactful online solutions.",
     images: [
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
         url: "/images/og-image.png",
         width: 800,
         height: 600,
-        alt: "Umar Bashir Portfolio",
+        alt: "Vertex Solutions Portfolio",
       },
     ],
-    siteName: "Umar Bashir Portfolio",
+    siteName: "Vertex Solutions Portfolio",
   },
 };
 
@@ -36,7 +36,7 @@ const breadcrumb = [
 const PortfolioPage = () => {
   return (
     <React.Fragment>
-      <PageHeroBanner title="My Portfolio" bc={breadcrumb} />
+      <PageHeroBanner title="Our Portfolio" bc={breadcrumb} />
       <section className="pb-10 md:pb-32">
         <div className="container mx-auto px-5">
           <div className="row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-10 gap-12">

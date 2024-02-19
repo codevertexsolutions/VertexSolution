@@ -5,14 +5,14 @@ import Image from "next/image";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "About Me | Umar Bashir Portfolio | Software Developer",
+  title: "About us | Vertex Solution Portfolio | Software Developer",
   alternates: {
     canonical: `${process.env.APP_URL}/about`,
   },
   openGraph: {
     type: "website",
     url: `${process.env.APP_URL}/about`,
-    title: "About Me | Umar Bashir Portfolio | Software Developer",
+    title: "About us | Vertex Solution Portfolio | Software Developer",
     description:
       "Software developer with over 4 years of experience building web applications and websites using modern technologies.",
     images: [
@@ -20,10 +20,10 @@ export const metadata: Metadata = {
         url: "/images/og-image.png",
         width: 800,
         height: 600,
-        alt: "Umar Bashir Portfolio",
+        alt: "Vertex Solution Portfolio",
       },
     ],
-    siteName: "Umar Bashir Portfolio",
+    siteName: "Vertex Solution Portfolio",
   },
 };
 
@@ -37,26 +37,26 @@ const breadcrumb = [
 const AboutPage = () => {
   return (
     <React.Fragment>
-      <PageHeroBanner title="about me" bc={breadcrumb} />
+      <PageHeroBanner title="about us" bc={breadcrumb} />
       <div id="about_section" className="mb-10">
         <Container>
           <div className="grid grid-cols-1 gap-12">
             {/* Right Box */}
             <article className="grid grid-cols-1 lg:grid-cols-[280px_1fr_1fr] gap-10">
               <h2 className="text-5xl font-semibold text-dark-color leading-snug">
-                Who I am?
+                Who we Are?
               </h2>
               <p className="text-lg text-dark-color leading-loose ">
-                My name is Umar Bashir and I am a professional software
-                developer with over 03 years of experience. I have a passion for
-                creating innovative and user-friendly websites that are both
+                We are Vertex Solution and I am a professional software
+                developer with over 03 years of experience. we have a passion
+                for creating innovative and user-friendly websites that are both
                 visually appealing and highly functional.
               </p>
               <p className="text-lg text-dark-color leading-loose ">
-                I am dedicated to providing clients with the best possible
-                solutions to meet their unique needs. I am committed to staying
-                current with the latest trends and technologies to ensure that
-                my clients receive the best possible results.
+                We are dedicated to providing clients with the best possible
+                solutions to meet their unique needs. we are committed to
+                staying current with the latest trends and technologies to
+                ensure that my clients receive the best possible results.
               </p>
             </article>
             {/* Left */}
@@ -90,10 +90,10 @@ const AboutPage = () => {
             {/* Left */}
             <article className="order-1 md:order-2">
               <h2 className="text-5xl font-semibold text-dark-color leading-snug">
-                Technologies I Use
+                Technologies We Use
               </h2>
               <p className="text-lg text-dark-color leading-loose mt-4">
-                I have experience working with a wide range of technologies and
+                we have experience working with a wide range of technologies and
                 tools to create innovative and user-friendly websites. Some of
                 the technologies I use include:
               </p>

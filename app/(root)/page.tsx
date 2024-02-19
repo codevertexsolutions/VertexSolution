@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    url: "https://www.umarbashir.com",
+    url: "https://www.hasnainzxc.com",
     title: "Umar Bashir Portfolio",
     description:
       "Software developer with over 4 years of experience building web applications and websites using modern technologies.",
@@ -25,10 +25,10 @@ export const metadata: Metadata = {
         url: "/images/og-image.png",
         width: 800,
         height: 600,
-        alt: "Umar Bashir Portfolio",
+        alt: "Vertex Solutions Portfolio",
       },
     ],
-    siteName: "Umar Bashir Portfolio",
+    siteName: "Vertex Solutions Portfolio",
   },
 };
 
@@ -37,20 +37,20 @@ function addPersonJsonLd() {
     __html: `{
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Umar Bashir Rather",
-      url: "https://www.umarbashir.com",
+      name: "Vertex Solutions Rather",
+      url: "https:/vertexsolutions.x@gmail.com",
       // image: "https://www.umarbashir.com/images/your-image.jpg",
       sameAs: [
-        "https://www.linkedin.com/in/umarbashirr/",
-        "https://github.com/umarbashirr",
-        "https://twitter.com/umarbashirr",
+        "https://www.linkedin.com/in/vertexsolutions.x@gmail.com",
+        "https://github.com/vertexsolutions.x@gmail.com",
+        "https://twitter.com/vertexsolutions.x@gmail.com",
       ],
       jobTitle: "Software Developer",
       worksFor: {
         "@type": "Organization",
         name: "Self-Employed",
       },
-      email: "mailto:umarbashir601@gmail.com",
+      email: "mailto:vertexsolutions.x@gmail.com",
     }`,
   };
 }
@@ -64,13 +64,13 @@ export default function Home() {
         key="person-jsonld"
       />
       <HeroBanner />
-      <WhyUsSection />
+      {/* <WhyUsSection /> */}
       <AboutSection />
-      <Banner />
+      {/* <Banner />
       <ServicesBlock />
       <SectionWithMargin>
         <Portfolio />
-      </SectionWithMargin>
+      </SectionWithMargin> */}
     </>
   );
 }

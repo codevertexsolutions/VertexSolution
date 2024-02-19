@@ -114,7 +114,7 @@ export const WHY_CHOOSE_US = {
 // Let rewrite the below data as my portfolio services
 
 export const OurServices = {
-  title: "What I Do?",
+  title: "What We Do?",
   cardsArr: [
     {
       icon: (
@@ -169,8 +169,8 @@ export const CONTACT_CARD = [
     title: "Contact With Phone Number",
     options: [
       {
-        path: "tel:+917889737464",
-        label: "+91 7889737464",
+        path: "tel:+971 545941639",
+        label: "+971 545941639",
       },
     ],
   },
@@ -194,7 +194,7 @@ export const CONTACT_CARD = [
     options: [
       {
         path: "https://wa.link/nv91dx",
-        label: "+971545941639",
+        label: "+971 545941639",
       },
     ],
   },
