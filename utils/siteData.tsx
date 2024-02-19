@@ -181,8 +181,8 @@ export const CONTACT_CARD = [
     title: "Contact With Email",
     options: [
       {
-        path: "mailto:umarbashir601@gmail.com",
-        label: "umarbashir601@gmail.com",
+        path: "mailto:vertexsolutions.x@gmail.com",
+        label: "vertexsolutions.x@gmail.com",
       },
     ],
   },
@@ -194,14 +194,14 @@ export const CONTACT_CARD = [
     options: [
       {
         path: "https://wa.link/nv91dx",
-        label: "+91 7889737464",
+        label: "+971545941639",
       },
     ],
   },
 ];
 
 export const OUR_PORTFOLIO: Portfolios = {
-  title: "My Portfolio",
+  title: "our Portfolio",
   porfolios: [
     {
       title: "Profit and Co.",

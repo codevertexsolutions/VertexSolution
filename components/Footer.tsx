@@ -20,27 +20,27 @@ const Footer = () => {
               <h2 className="capitalize text-2xl">About Me</h2>
             </div>
             <p className="mt-4 leading-[32px]">
-              Hi, I&rsquo;m Umar Bashir, a software developer from India. I
-              specialize in building high-quality, fully responsive, and
-              user-friendly websites and web applications using modern web tools
-              & technologies.
+              Hi, we&rsquo;are Vertex Solution, a Tech agency developer from
+              UAE. we are specialize in building high-quality, fully responsive,
+              Web and mobile user-friendly websites and web applications using
+              modern web tools & technologies.
             </p>
           </div>
           {/* Second Column */}
           <div>
-            <h2 className="capitalize text-2xl">Reach To Me</h2>
+            <h2 className="capitalize text-2xl">Reach To us</h2>
             <div className="flex flex-col gap-y-4 mt-4 md:mt-6">
               <Link
-                href="mailto:umarbashir601@gmail.com"
+                href="mailto:vertexsolutions.x@gmail.com"
                 className="flex items-center justify-start space-x-2 hover:text-secondary-color"
               >
-                <FaEnvelope /> <span>umarbashir601@gmail.com</span>
+                <FaEnvelope /> <span>vertexsolutions.x@gmail.com</span>
               </Link>
               <Link
                 href="tel:+917889737464"
                 className="flex items-center justify-start space-x-2 hover:text-secondary-color"
               >
-                <FaPhone /> <span>+91 7889737464</span>
+                <FaPhone /> <span>+971545941639</span>
               </Link>
             </div>
           </div>
@@ -66,7 +66,7 @@ const Footer = () => {
             <h2 className="capitalize text-2xl">Social Media</h2>
             <div className="flex gap-4 mt-4 md:mt-6 ">
               <Link
-                href="https://www.facebook.com/umarbashirrr/"
+                href="https://www.facebook.com/vertexsolution/"
                 target="_blank"
                 className="flex items-center justify-start space-x-2"
                 aria-labelledby="facebook"
@@ -74,7 +74,7 @@ const Footer = () => {
                 <FaFacebook className="w-9 h-9" />
               </Link>
               <Link
-                href="https://instagram.com/umarbashirrr"
+                href="https://instagram.com/vertex Solution"
                 target="_blank"
                 className="flex items-center justify-start space-x-2"
                 aria-labelledby="instagram"
@@ -82,7 +82,7 @@ const Footer = () => {
                 <FaInstagram className="w-9 h-9" />
               </Link>
               <Link
-                href="https://twitter.com/umarbashirr"
+                href="https://twitter.com/vertex solutiom"
                 target="_blank"
                 className="flex items-center justify-start space-x-2"
                 aria-labelledby="twitter"
@@ -90,7 +90,7 @@ const Footer = () => {
                 <BsTwitterX className="w-9 h-9" />
               </Link>
               <Link
-                href="https://linkedin.com/in/umarbashirr"
+                href="https://linkedin.com/in/vertex solution"
                 target="_blank"
                 className="flex items-center justify-start space-x-2"
                 aria-labelledby="linkedin"
@@ -98,7 +98,7 @@ const Footer = () => {
                 <FaLinkedin className="w-9 h-9" />
               </Link>
               <Link
-                href="https://github.com/umarbashirr"
+                href="https://github.com/vertex solution"
                 target="_blank"
                 className="flex items-center justify-start space-x-2 "
                 aria-labelledby="github"
@@ -110,7 +110,8 @@ const Footer = () => {
         </div>
         <div className="mt-10 flex items-center justify-center">
           <p>
-            &copy; {new Date().getFullYear()} Umar Bashir. All rights reserved.
+            &copy; {new Date().getFullYear()} Vertex Solutions. All rights
+            reserved.
           </p>
         </div>
       </div>
