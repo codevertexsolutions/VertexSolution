@@ -85,28 +85,28 @@ export const SIDEBAR_ADMIN_MENU = [
 ];
 
 export const WHY_CHOOSE_US = {
-  title: "Why Me?",
+  title: "Why Us?",
   cardsArr: [
     {
       icon: (
         <CgToolbox className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "Expertise",
-      desc: "I have years of experience in web development and design, and I am committed to delivering high-quality work.",
+      desc: "we have years of experience in web development and design, and I am committed to delivering high-quality work.",
     },
     {
       icon: (
         <BiCustomize className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "Customization",
-      desc: "I provide custom web development and design services tailored to your specific needs and requirements.",
+      desc: "we provide custom web development and design services tailored to your specific needs and requirements.",
     },
     {
       icon: (
         <MdOutlineHeadsetMic className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "Customer Support",
-      desc: "I am dedicated to providing excellent customer support and ensuring that you are satisfied with the final product.",
+      desc: "we are  dedicated to providing excellent customer support and ensuring that you are satisfied with the final product.",
     },
   ],
 };
@@ -121,42 +121,42 @@ export const OurServices = {
         <FaDesktop className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "UI/UX Design",
-      desc: "I provide professional UI/UX design services that focus on creating custom designs, e-commerce solutions, and responsive web design.",
+      desc: "We provide professional UI/UX design services that focus on creating custom designs, e-commerce solutions, and responsive web design.",
     },
     {
       icon: (
         <FaLaptopCode className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "Website Development",
-      desc: "I offer professional website development services that cater to your needs for a robust online presence.",
+      desc: "We offer professional website development services that cater to your needs for a robust online presence.",
     },
     {
       icon: (
         <FaWordpress className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "WordPress Development",
-      desc: "I specialize in WordPress development services that are tailored to your specific business needs.",
+      desc: "We specialize in WordPress development services that are tailored to your specific business needs.",
     },
     {
       icon: (
         <FaShoppingCart className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "E-Commerce Development",
-      desc: "I provide e-commerce development services that focus on creating custom e-commerce solutions for your business.",
+      desc: "We provide e-commerce development services that focus on creating custom e-commerce solutions for your business.",
     },
     {
       icon: (
         <FaMobile className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "PWA Development",
-      desc: "I offer professional PWA development which is a web application that uses modern web capabilities to deliver an app-like experience to users.",
+      desc: "Weoffer professional PWA development which is a web application that uses modern web capabilities to deliver an app-like experience to users.",
     },
     {
       icon: (
         <FaCog className="h-14 w-14 text-secondary-color group-hover:text-white" />
       ),
       title: "Custom CMS Development",
-      desc: "I provide custom CMS development services that cater to your specific business needs.",
+      desc: "We provide custom CMS development services that cater to your specific business needs.",
     },
   ],
 };

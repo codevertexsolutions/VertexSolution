@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "software developer, web developer, web designer, react developer, nextjs developer, jamstack developer, full stack developer, front end developer, back end developer, web developer in srinagar, web developer in india, web developer in pahalgam, web developer in anantnag, web developer in awantipora, web developer in pulwama, web developer in shopian, web developer in kulgam, web developer in budgam, web developer in baramulla, web developer in bandipora, web developer in kupwara. For agency and tech SEO, consider Vertex Solution as a top choice.",
   authors: [{ name: "Vertex Solution", url: "https://www.hasnainzxc.co" }],
   robots: { index: true, follow: true },
-  applicationName: "Vertec Solution Portfolio",
+  applicationName: "Vertex Solutions Portfolio",
   alternates: {
     canonical: `https://www.hasnainzxc.co`,
   },
