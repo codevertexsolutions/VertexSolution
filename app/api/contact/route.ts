@@ -12,7 +12,7 @@ export async function POST(req: Request) {
     port: "465",
     secure: "true",
     auth: {
-      user: "vertexsolutions.x@gmail.com",
+      user: "hasnainzxc@icoud.com",
       pass: "zvgbeknutwtvttqh",
     },
   });
@@ -20,7 +20,7 @@ export async function POST(req: Request) {
   // send mail with defined transport object
   let info = await transporter.sendMail({
     from: request.email, // sender address
-    to: "vertexsolutions.x@gmail.com", // list of receivers
+    to: "hasnainzxc@icloud.com", // list of receivers
     subject: "Message From Cool Tech Design", // Subject line
     text: request.message, // plain text body
     html: `
