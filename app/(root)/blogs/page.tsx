@@ -3,14 +3,14 @@ import { PageHeroBanner } from "../../../components";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Blogs | Umar Bashir Rather | Software Developer",
+  title: "Blogs |Vertex Solutions Portfolio | Software Developer",
   alternates: {
     canonical: `${process.env.APP_URL}/blogs`,
   },
   openGraph: {
     type: "website",
     url: `${process.env.APP_URL}/blogs`,
-    title: "Blogs | Umar Bashir Portfolio | Software Developer",
+    title: "Blogs | Vertex Solutions Portfolio | Software Developer",
     description:
       " I write blogs on a wide range of topics including web design, development and digital marketing.",
     images: [
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
         url: "/images/og-image.png",
         width: 800,
         height: 600,
-        alt: "Umar Bashir Portfolio",
+        alt: "Vertex Solutions Portfolio",
       },
     ],
-    siteName: "Umar Bashir Portfolio",
+    siteName: "Vertex Solutions Portfolio",
   },
 };
 
