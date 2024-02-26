@@ -1,6 +1,17 @@
 import React from "react";
+// Define a type for the data object
+interface CardProps {
+  data: {
+    id: number;
+    title: string;
+    cover: string;
+    link: string;
+    category: string; // Assuming category is a property of the data object
+    date: string; // Assuming date is a property of the data object
+  };
+}
 
-const Card = ({ data }) => {
+const Card = ({ data }: CardProps) => {
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden">
       <a href={data.link} target="_blank" rel="noopener noreferrer">

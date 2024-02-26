@@ -207,7 +207,7 @@ export const blogdata = [
     cover:
       "https://miro.medium.com/v2/resize:fit:822/1*r4dOZJwvOfjk-QG570D2fQ.png",
     link: "https://hasnainzxc.medium.com/sustainable-future-with-defi-60d9666e1c3f",
-    catgeory: "Tech",
+    category: "Tech",
     date: "April 25, 2023",
   },
   {
@@ -216,7 +216,7 @@ export const blogdata = [
     cover:
       "https://miro.medium.com/v2/resize:fit:810/1*scwveGAZXhJG-izlq3oSxA.png",
     link: "https://hasnainzxc.medium.com/sustainable-future-with-defi-60d9666e1c3f",
-    catgeory: "DeFi / Tech",
+    category: "DeFi / Tech",
     date: "October 20, 2023",
   },
   {
@@ -226,8 +226,8 @@ export const blogdata = [
     link: "https://hasnainzxc.medium.com/sustainable-future-with-defi-60d9666e1c3f",
     cover:
       "https://miro.medium.com/v2/resize:fit:720/format:webp/1*ozblnkT_nhMLBM8oT9jcrQ.jpeg",
-    link: "https://www.sajidjaved.co/blog/dark-patterns",
-    catgeory: "Security / Tech",
+
+    category: "Security / Tech",
     date: "Monday, March 22, 2021",
   },
   {
@@ -235,7 +235,7 @@ export const blogdata = [
     title: "Everything You Need to Know About Hardware Security Keys",
     cover: "https://miro.medium.com/v2/resize:fit:1200/0*twsSb-eDNsW7Iq04.jpg",
     link: "https://medium.com/@hasnainzxc/everything-you-need-to-know-about-hardware-security-keys-8fcae0279c09",
-    catgeory: "Security / Tech",
+    category: "Security / Tech",
     date: "Unknown",
   },
   {
@@ -243,7 +243,7 @@ export const blogdata = [
     title: "Everything You Need to Know About Blockchain Technology",
     cover: "https://miro.medium.com/v2/resize:fit:1200/0*byJVaKv6UyxqWeXU.png",
     link: "https://hasnainzxc.medium.com/everything-you-need-to-know-about-blockchain-technology-c0022b6142c3",
-    catgeory: "DeFi / Tech",
+    category: "DeFi / Tech",
     date: "Tuesday, April 20, 2021",
   },
   {
@@ -252,7 +252,7 @@ export const blogdata = [
     cover:
       "https://miro.medium.com/v2/resize:fit:720/format:webp/0*wUnxaa8b93pTJSwJ.jpg",
     link: "https://hasnainzxc.medium.com/what-is-checkm8-did-axi0mx-really-checkmated-apple-18a6e1c149fc",
-    catgeory: "Security / Tech",
+    category: "Security / Tech",
     date: "Friday, April 2, 2021",
   },
 ];
