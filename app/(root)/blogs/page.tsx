@@ -1,6 +1,11 @@
 import { Metadata } from "next";
 import { PageHeroBanner } from "../../../components";
 import React from "react";
+import { blogdata } from "@/utils/siteData";
+import SinglePortfolio from "../../../components/Portfolio/SinglePortfolio";
+import { Portfolio } from "../../../interfaces/portfolio";
+import { OUR_PORTFOLIO } from "../../../utils/siteData";
+import Card from "../blogs/card";
 
 export const metadata: Metadata = {
   title: "Blogs |Vertex Solutions Portfolio | Software Developer",
@@ -34,11 +39,13 @@ const BlogPage = () => {
   return (
     <React.Fragment>
       <PageHeroBanner title="My Blogs" bc={breadcrumb} />
-      <section className="pb-10 md:pb-20">
-        <div className="container px-5 mx-auto  h-full">
-          <h2 className="text-3xl text-center">
-            Oops! Currently no blogs found. Come back later...
-          </h2>
+      <section className="pb-10 md:pb-32">
+        <div className="container mx-auto px-5">
+          <div className="row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-10 gap-12">
+            {blogdata.map((item) => (
+              <Card data={item} key={item.id} />
+            ))}
+          </div>
         </div>
       </section>
     </React.Fragment>
