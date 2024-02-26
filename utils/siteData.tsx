@@ -200,62 +200,66 @@ export const CONTACT_CARD = [
   },
 ];
 
-export const blogdata = [
-  {
-    id: 1,
-    title: "ChatGPT 4: A Quantum Leap in AI Conversations",
-    cover:
-      "https://miro.medium.com/v2/resize:fit:822/1*r4dOZJwvOfjk-QG570D2fQ.png",
-    link: "https://hasnainzxc.medium.com/sustainable-future-with-defi-60d9666e1c3f",
-    category: "Tech",
-    date: "April 25, 2023",
-  },
-  {
-    id: 2,
-    title: "Sustainable Future With DeFi",
-    cover:
-      "https://miro.medium.com/v2/resize:fit:810/1*scwveGAZXhJG-izlq3oSxA.png",
-    link: "https://hasnainzxc.medium.com/sustainable-future-with-defi-60d9666e1c3f",
-    category: "DeFi / Tech",
-    date: "October 20, 2023",
-  },
-  {
-    id: 3,
-    title:
-      "Dark Patterns: How You Are Being Deceived Through Manipulative Design Techniques",
-    link: "https://hasnainzxc.medium.com/sustainable-future-with-defi-60d9666e1c3f",
-    cover:
-      "https://miro.medium.com/v2/resize:fit:720/format:webp/1*ozblnkT_nhMLBM8oT9jcrQ.jpeg",
-
-    category: "Security / Tech",
-    date: "Monday, March 22, 2021",
-  },
-  {
-    id: 4,
-    title: "Everything You Need to Know About Hardware Security Keys",
-    cover: "https://miro.medium.com/v2/resize:fit:1200/0*twsSb-eDNsW7Iq04.jpg",
-    link: "https://medium.com/@hasnainzxc/everything-you-need-to-know-about-hardware-security-keys-8fcae0279c09",
-    category: "Security / Tech",
-    date: "Unknown",
-  },
-  {
-    id: 5,
-    title: "Everything You Need to Know About Blockchain Technology",
-    cover: "https://miro.medium.com/v2/resize:fit:1200/0*byJVaKv6UyxqWeXU.png",
-    link: "https://hasnainzxc.medium.com/everything-you-need-to-know-about-blockchain-technology-c0022b6142c3",
-    category: "DeFi / Tech",
-    date: "Tuesday, April 20, 2021",
-  },
-  {
-    id: 6,
-    title: "What is Checkm8? Did Axi0mX Really Checkmated Apple?",
-    cover:
-      "https://miro.medium.com/v2/resize:fit:720/format:webp/0*wUnxaa8b93pTJSwJ.jpg",
-    link: "https://hasnainzxc.medium.com/what-is-checkm8-did-axi0mx-really-checkmated-apple-18a6e1c149fc",
-    category: "Security / Tech",
-    date: "Friday, April 2, 2021",
-  },
-];
+export const BLOG_DATA = {
+  title: "Our Blog's",
+  blogs: [
+    {
+      id: 1,
+      title: "ChatGPT 4: A Quantum Leap in AI Conversations",
+      cover:
+        "https://miro.medium.com/v2/resize:fit:822/1*r4dOZJwvOfjk-QG570D2fQ.png",
+      link: "https://hasnainzxc.medium.com/sustainable-future-with-defi-60d9666e1c3f",
+      category: "Tech",
+      date: "April 25, 2023",
+    },
+    {
+      id: 2,
+      title: "Sustainable Future With DeFi",
+      cover:
+        "https://miro.medium.com/v2/resize:fit:810/1*scwveGAZXhJG-izlq3oSxA.png",
+      link: "https://hasnainzxc.medium.com/sustainable-future-with-defi-60d9666e1c3f",
+      category: "DeFi / Tech",
+      date: "October 20, 2023",
+    },
+    {
+      id: 3,
+      title:
+        "Dark Patterns: How You Are Being Deceived Through Manipulative Design Techniques",
+      link: "https://hasnainzxc.medium.com/sustainable-future-with-defi-60d9666e1c3f",
+      cover:
+        "https://miro.medium.com/v2/resize:fit:720/format:webp/1*ozblnkT_nhMLBM8oT9jcrQ.jpeg",
+      category: "Security / Tech",
+      date: "Monday, March 22, 2021",
+    },
+    {
+      id: 4,
+      title: "Everything You Need to Know About Hardware Security Keys",
+      cover:
+        "https://miro.medium.com/v2/resize:fit:1200/0*twsSb-eDNsW7Iq04.jpg",
+      link: "https://medium.com/@hasnainzxc/everything-you-need-to-know-about-hardware-security-keys-8fcae0279c09",
+      category: "Security / Tech",
+      date: "Unknown",
+    },
+    {
+      id: 5,
+      title: "Everything You Need to Know About Blockchain Technology",
+      cover:
+        "https://miro.medium.com/v2/resize:fit:1200/0*byJVaKv6UyxqWeXU.png",
+      link: "https://hasnainzxc.medium.com/everything-you-need-to-know-about-blockchain-technology-c0022b6142c3",
+      category: "DeFi / Tech",
+      date: "Tuesday, April 20, 2021",
+    },
+    {
+      id: 6,
+      title: "What is Checkm8? Did Axi0mX Really Checkmated Apple?",
+      cover:
+        "https://miro.medium.com/v2/resize:fit:720/format:webp/0*wUnxaa8b93pTJSwJ.jpg",
+      link: "https://hasnainzxc.medium.com/what-is-checkm8-did-axi0mx-really-checkmated-apple-18a6e1c149fc",
+      category: "Security / Tech",
+      date: "Friday, April 2, 2021",
+    },
+  ],
+};
 
 export const OUR_PORTFOLIO: Portfolios = {
   title: "our Portfolio",
