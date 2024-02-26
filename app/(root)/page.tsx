@@ -8,6 +8,7 @@ import {
 } from "../../components/HomeComponents";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import SectionWithMargin from "../../components/SectionWithMargin";
+import Blogs from "./blogs/homeblogs";
 
 export const metadata: Metadata = {
   title: "Home | Vertex Solutions | Software Developer",
@@ -70,6 +71,9 @@ export default function Home() {
       <ServicesBlock />
       <SectionWithMargin>
         <Portfolio />
+      </SectionWithMargin>
+      <SectionWithMargin>
+        <Blogs />
       </SectionWithMargin>
     </>
   );

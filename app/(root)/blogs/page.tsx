@@ -1,10 +1,7 @@
 import { Metadata } from "next";
 import { PageHeroBanner } from "../../../components";
 import React from "react";
-import { blogdata } from "@/utils/siteData";
-import SinglePortfolio from "../../../components/Portfolio/SinglePortfolio";
-import { Portfolio } from "../../../interfaces/portfolio";
-import { OUR_PORTFOLIO } from "../../../utils/siteData";
+import { BLOG_DATA } from "@/utils/siteData";
 import Card from "../blogs/card";
 
 export const metadata: Metadata = {
@@ -35,15 +32,15 @@ const breadcrumb = [
   { url: `${process.env.APP_URL}/blogs`, name: "Blogs" },
 ];
 
-const BlogPage = () => {
+const Blogs = () => {
   return (
     <React.Fragment>
-      <PageHeroBanner title="My Blogs" bc={breadcrumb} />
+      <PageHeroBanner title="Our Blogs" bc={breadcrumb} />
       <section className="pb-10 md:pb-32">
         <div className="container mx-auto px-5">
           <div className="row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-10 gap-12">
-            {blogdata.map((item) => (
-              <Card data={item} key={item.id} />
+            {BLOG_DATA.blogs.map((blog) => (
+              <Card data={blog} key={blog.id} />
             ))}
           </div>
         </div>
@@ -52,4 +49,4 @@ const BlogPage = () => {
   );
 };
 
-export default BlogPage;
+export default Blogs;
