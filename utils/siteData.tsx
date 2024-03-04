@@ -261,6 +261,30 @@ export const BLOG_DATA = {
   ],
 };
 
+export const OUR_TEAM = {
+  title: "Our Team",
+  members: [
+    {
+      name: "SAJID JAVED",
+      position: "SOFTWARE ENG",
+      image: "https://example.com/john_doe.jpg",
+      bio: "John is the CEO of our company...",
+    },
+    {
+      name: "SAJID JAVED",
+      position: "SOFTWARE ENG",
+      image: "https://example.com/john_doe.jpg",
+      bio: "John is the CEO of our company...",
+    },
+    {
+      name: "Jane Smith",
+      position: "CTO",
+      image: "https://example.com/jane_smith.jpg",
+      bio: "Jane is the CTO of our company...",
+    },
+  ],
+};
+
 export const OUR_PORTFOLIO: Portfolios = {
   title: "our Portfolio",
   porfolios: [
