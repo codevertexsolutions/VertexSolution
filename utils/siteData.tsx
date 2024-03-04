@@ -261,6 +261,36 @@ export const BLOG_DATA = {
   ],
 };
 
+export const OUR_TEAM = {
+  title: "Our Team",
+  members: [
+    {
+      name: "SAJID JAVED",
+      position: " Cloud Developer",
+      positionIcon: "👨‍💻",
+      image: "/images/sajid.jpg",
+      bio: "Sajid is a passionate software engineer with expertise in full-stack development and cloud technologies.",
+      linkedin: "https://www.linkedin.com/in/sajidjavedxyz/",
+    },
+    {
+      name: "HASNAIN",
+      position: "Full Stack Software Engineer",
+      positionIcon: "👨‍💻",
+      image: "/images/hasnain.jpg",
+      bio: "Hasnain is a versatile full-stack developer with a strong background in web and mobile app development.",
+      linkedin: "https://www.linkedin.com/in/hasnainzxc/",
+    },
+    {
+      name: "YASIR ",
+      position: "Frontend and Backend Engineer",
+      positionIcon: "👨‍💻",
+      image: "/images/yasir.jpg",
+      bio: "Yasir is an experienced engineer proficient in both frontend and backend development, with a focus on delivering high-quality user experiences.",
+      linkedin: "https://www.linkedin.com/in/myaserkhan/",
+    },
+  ],
+};
+
 export const OUR_PORTFOLIO: Portfolios = {
   title: "our Portfolio",
   porfolios: [

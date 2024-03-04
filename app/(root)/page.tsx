@@ -9,6 +9,7 @@ import {
 import Portfolio from "../../components/Portfolio/Portfolio";
 import SectionWithMargin from "../../components/SectionWithMargin";
 import Blogs from "./blogs/homeblogs";
+import Teams from "./team/Teams";
 
 export const metadata: Metadata = {
   title: "Home | Vertex Solutions | Software Developer",
@@ -65,7 +66,7 @@ export default function Home() {
         key="person-jsonld"
       />
       <HeroBanner />
-      {/* <WhyUsSection /> */}
+
       <AboutSection />
       <Banner />
       <ServicesBlock />
@@ -74,6 +75,10 @@ export default function Home() {
       </SectionWithMargin>
       <SectionWithMargin>
         <Blogs />
+        {/* <WhyUsSection /> */}
+      </SectionWithMargin>
+      <SectionWithMargin>
+        <Teams />
       </SectionWithMargin>
     </>
   );
