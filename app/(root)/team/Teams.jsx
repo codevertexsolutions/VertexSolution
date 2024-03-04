@@ -31,8 +31,11 @@ const Team = () => {
         <div className="container mx-auto px-6 flex justify-center ml-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 mt-12">
             {OUR_TEAM.members.map((member) => (
-              <div
+              <a
                 key={member.name}
+                href={member.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="team-member grad_card group cursor-pointer py-8 px-6 sm:p-10 md:p-12 rounded-3xl shadow-lg hover:shadow-xl hover:-translate-y-1 duration-300 ease-in-out flex flex-col items-center bg-[#f6f6f6]"
               >
                 <img
@@ -43,13 +46,16 @@ const Team = () => {
                 <h3 className="text-dark-color text-2xl font-medium group-hover:text-white">
                   {member.name}
                 </h3>
-                <p className="text-light-color text-lg group-hover:text-white">
+                <p className="text-light-color text-lg group-hover:text-white font-bold flex items-center">
+                  <span className="text-primaryColor mr-1">
+                    {member.positionIcon}
+                  </span>
                   {member.position}
                 </p>
-                <p className="text-light-color text-lg group-hover:text-white">
+                <p className="text-light-color text-lg group-hover:text-white font-bold text-center mt-4">
                   {member.bio}
                 </p>
-              </div>
+              </a>
             ))}
           </div>
         </div>
