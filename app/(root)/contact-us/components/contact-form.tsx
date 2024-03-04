@@ -40,7 +40,7 @@ const ContactForm = () => {
       timer: 1500,
     });
     setUserData(initialValues);
-    router.replace("/");
+    router.replace("/contact");
   };
 
   return (

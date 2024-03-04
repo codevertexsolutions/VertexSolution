@@ -3,25 +3,27 @@ import { NextResponse } from "next/server";
 const mailer = require("nodemailer");
 
 export async function POST(req: Request) {
-  const request: any = await req.json();
+  const authEmail = process.env.NEXT_APP_NODEMAILER_AUTH_EMAIL;
+  const authPass = process.env.NEXT_APP_NODEMAILER_AUTH_PASSWORD;
+  const to = "vertexsolutions.x@gmail.com";
 
-  console.log(request);
+  const request: any = await req.json();
 
   let transporter = mailer.createTransport({
     host: "smtp.gmail.com",
     port: "465",
     secure: "true",
     auth: {
-      user: "hasnainzxc@icoud.com",
-      pass: "zvgbeknutwtvttqh",
+      user: authEmail,
+      pass: authPass,
     },
   });
 
   // send mail with defined transport object
   let info = await transporter.sendMail({
     from: request.email, // sender address
-    to: "hasnainzxc@icloud.com", // list of receivers
-    subject: "Message From Cool Tech Design", // Subject line
+    to: to, // list of receivers
+    subject: `Message From ${request.company}`, // Subject line
     text: request.message, // plain text body
     html: `
     <p>Name: ${request.name}</p>
