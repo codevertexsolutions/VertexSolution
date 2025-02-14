@@ -1,16 +1,13 @@
-export interface Portfolios {
-  title: string;
-  porfolios: Portfolio[];
-}
-
 export interface Portfolio {
-  title: string;
-  url: string;
-  image: string;
   id: number;
+  title: string;
+  category: string;
+  date: string;
   cover: string;
   link: string;
-  date: string;
-  category?: string;
-  techStack?: string[];
+}
+
+export interface Portfolios {
+  title: string;
+  portfolios: Portfolio[]; // Changed from porfolios to portfolios
 }

@@ -32,7 +32,6 @@ const breadcrumb = [
   { url: `${process.env.APP_URL}`, name: "Home" },
   { url: `${process.env.APP_URL}/portfolio`, name: "Portfolio" },
 ];
-
 const PortfolioPage = () => {
   return (
     <React.Fragment>
@@ -41,7 +40,11 @@ const PortfolioPage = () => {
         <div className="container mx-auto px-5">
           <div className="row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-10 gap-12">
             {OUR_PORTFOLIO.portfolios?.map((portfolio: Portfolio, index: number) => (
-              <SinglePortfolio key={portfolio.id || index} portfolio={portfolio} imageBig />
+              <SinglePortfolio 
+                key={portfolio.id || index} 
+                portfolio={portfolio} 
+                imageBig 
+              />
             ))}
           </div>
         </div>

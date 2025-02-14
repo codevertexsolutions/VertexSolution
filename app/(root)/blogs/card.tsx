@@ -1,26 +1,33 @@
 import React from "react";
-// Define a type for the data object
+import Image from "next/image";
+import Link from "next/link";
+
 interface CardProps {
   data: {
     id: number;
     title: string;
     cover: string;
     link: string;
-    category: string; // Assuming category is a property of the data object
-    date: string; // Assuming date is a property of the data object
+    category: string;
+    date: string;
   };
 }
 
 const Card = ({ data }: CardProps) => {
+  if (!data?.link) {
+    return null;
+  }
+
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden">
-      <a href={data.link} target="_blank" rel="noopener noreferrer">
-        <img
-          className="w-full h-60 object-cover object-center transition duration-300 transform hover:scale-105"
+      <div className="relative w-full h-60">
+        <Image
           src={data.cover}
           alt={data.title}
+          fill
+          className="object-cover object-center transition duration-300 transform hover:scale-105"
         />
-      </a>
+      </div>
       <div className="p-7">
         <h2 className="text-xl font-semibold text-gray-800">{data.title}</h2>
         <p className="mt-2 text-sm text-gray-600">{data.category}</p>

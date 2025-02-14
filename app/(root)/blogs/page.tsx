@@ -7,11 +7,11 @@ import Card from "../blogs/card";
 export const metadata: Metadata = {
   title: "Blogs |Vertex Solutions Portfolio | Software Developer",
   alternates: {
-    canonical: `${process.env.APP_URL}/blogs`,
+    canonical: "/blogs",
   },
   openGraph: {
     type: "website",
-    url: `${process.env.APP_URL}/blogs`,
+    url: "/blogs",
     title: "Blogs | Vertex Solutions Portfolio | Software Developer",
     description:
       " I write blogs on a wide range of topics including web design, development and digital marketing.",
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
 };
 
 const breadcrumb = [
-  { url: process.env.APP_URL, name: "Home" },
-  { url: `${process.env.APP_URL}/blogs`, name: "Blogs" },
+  { url: "/", name: "Home" },
+  { url: "/blogs", name: "Blogs" },
 ];
 
 const Blogs = () => {

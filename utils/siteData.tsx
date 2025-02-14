@@ -292,7 +292,7 @@ export const OUR_TEAM = {
 };
 export const OUR_PORTFOLIO: Portfolios = {
   title: "Our Portfolio",
-  portfolios: [
+  portfolios: [ // Changed from porfolios to portfolios
     {
       id: 1,
       title: "E-Commerce / Web Development",

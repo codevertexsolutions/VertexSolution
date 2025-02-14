@@ -23,6 +23,14 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'i.imgur.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'medium.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'miro.medium.com',
+      },
     ],
   },
 };
