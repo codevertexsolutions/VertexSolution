@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Portfolio } from "../../interfaces/portfolio";
 import Image from "next/image";
@@ -10,33 +11,33 @@ interface IProps {
 }
 
 const SinglePortfolio = ({ portfolio, imageBig = false }: IProps) => {
+  if (!portfolio?.link) return null;
+
   return (
-    <article>
-      <div
-        className={`relative w-full ${
-          imageBig ? "h-[450px]" : "h-[300px]"
-        } min-w-[300px] rounded-3xl overflow-hidden drop-shadow-xl`}
-      >
+    <div className="bg-white rounded-xl shadow-md overflow-hidden">
+      <div className="relative w-full h-60">
         <Image
-          src={portfolio?.image}
-          alt={portfolio?.title}
+          src={portfolio.cover}
+          alt={portfolio.title}
           fill
-          className="object-cover h-full"
+          className="object-cover object-center transition duration-300 transform hover:scale-105"
         />
       </div>
-      <div className="px-2 pt-4 flex items-center justify-between">
-        <h3 className="text-xl font-semibold text-dark-color">
-          {portfolio?.title}
-        </h3>
-        <Link
-          href={portfolio?.url}
-          className="flex items-center gap-1 text-indigo-600"
+      <div className="p-7">
+        <h2 className="text-xl font-semibold text-gray-800">{portfolio.title}</h2>
+        <p className="mt-2 text-sm text-gray-600">{portfolio.category}</p>
+        <p className="text-sm text-gray-600">{portfolio.date}</p>
+      </div>
+      <div className="px-7 pb-5">
+        <Link 
+          href={portfolio.link}
+          className="inline-block text-center bg-red-600 hover:bg-red-700 text-white py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105"
           target="_blank"
         >
-          Visit Now <FiExternalLink />
+          View Project <FiExternalLink className="inline ml-1" />
         </Link>
       </div>
-    </article>
+    </div>
   );
 };
 

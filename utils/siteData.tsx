@@ -169,7 +169,7 @@ export const CONTACT_CARD = [
     title: "Contact With Phone Number",
     options: [
       {
-        path: "tel:+971 545941639",
+        path: "tel:+923108787006",
         label: "+971 545941639",
       },
     ],
@@ -290,39 +290,24 @@ export const OUR_TEAM = {
     },
   ],
 };
-
 export const OUR_PORTFOLIO: Portfolios = {
-  title: "our Portfolio",
-  porfolios: [
+  title: "Our Portfolio",
+  portfolios: [
     {
-      title: "Web Design & Development",
-      url: "https://www.sajidjaved.co/projects/darkblock",
-      image:
-        "https://www.sajidjaved.co/_next/image?url=%2Fstatic%2Fprojects%2Fdarkblock%2Fbanner.png&w=3840&q=75",
-    },
-    {
-      title: "Web development / E-Commerce",
-      url: "https://www.sajidjaved.co/projects/shopsy",
-      image:
-        "https://www.sajidjaved.co/_next/image?url=%2Fstatic%2Fprojects%2Fshopsy%2Fbanner.png&w=3840&q=75",
-    },
-    {
+      id: 1,
       title: "E-Commerce / Web Development",
-      url: "https://www.sajidjaved.co/projects/dadsagree",
-      image:
-        "https://www.sajidjaved.co/_next/image?url=%2Fstatic%2Fprojects%2Fdadsagree%2Fbanner.png&w=1920&q=75",
+      category: "E-Commerce",
+      date: "2024",
+      cover: "https://capsapparel.com/cdn/shop/files/Oct_CAPS_WINTER_2024_banner_4.png?v=1737875252&width=2000",
+      link: "https://capsapparel.com/"
     },
     {
-      title: "E-Commerce / Web Development",
-      url: "https://www.sajidjaved.co/projects/dadsagree",
-      image:
-        "https://www.sajidjaved.co/_next/image?url=%2Fstatic%2Fprojects%2Fdadsagree%2Fbanner.png&w=1920&q=75",
-    },
-    {
-      title: "E-Commerce / Web Development",
-      url: "https://www.sajidjaved.co/projects/dadsagree",
-      image:
-        "https://www.sajidjaved.co/_next/image?url=%2Fstatic%2Fprojects%2Fdadsagree%2Fbanner.png&w=1920&q=75",
-    },
-  ],
+      id: 2,
+      title: "Yooper Shirt Project",
+      category: "Web Development",
+      date: "2024",
+      cover: "https://i.imgur.com/FYqywxT.jpg",
+      link: "https://hasnainzxc.vercel.app/projects/yoopershirt"
+    }
+  ]
 };
